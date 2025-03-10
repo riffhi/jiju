@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Memories</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #fad0c4, #ff9a9e);
+            text-align: center;
+            padding: 20px;
+        }
+.collage video {
+    width: 300px;
+    height: 300px; /* Ensures a square aspect ratio */
+    object-fit: cover; /* Crops to fit within the square */
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.collage img{
+    width: 300px;
+    height: 300px; /* Ensures a square aspect ratio */
+    object-fit: cover; /* Crops to fit within the square */
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+        h1 {
+            color: #ff6b6b;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px #ffa7a7;
+        }
+        /* .collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .collage img, video {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        } */
+        .button {
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: white;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #ff4757;
+        }
+    </style> 
+</head>
+<body>
+
+<h1>Your Special Moments 💖</h1>
+
+<div class="collage">
+    <img src = "ishan1.jpg" alt="photo 1">
+    <img src="sejal3.jpg" alt="Photo 2">
+    <video controls>
+        <source src="sejal2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <img src="sejal4.jpg" alt="Photo 3">
+    <video controls>
+        <source src="sejal3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <img src="sejal5.jpg" alt="Photo 4">
+    <img src="sejal6.jpg" alt="Photo 5">
+    <img src="sejal7.jpg" alt="Photo 6">
+</div>
+
+<!-- Button to go back -->
+<button class="button" onclick="window.location.href= 'hbdindex.html' ">Back to Main Page 🎂</button>
+
+</body>
+</html>
